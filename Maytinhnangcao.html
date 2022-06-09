@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Máy tính nâng cao</title>
+    <style>
+        button{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<label><input id="hienthi" type="text"></label><br><br>
+<div class="maytinh">
+<table>
+    <tr>
+        <td><button type="button" value="1" onclick="duLieu(this.value)">1</button></td>
+        <td><button type="button" value="2" onclick="duLieu(this.value)">2</button></td>
+        <td><button type="button" value="3" onclick="duLieu(this.value)">3</button></td>
+        <td><button type="button" value="+" onclick="duLieu(this.value)">+</button></td>
+    </tr>
+    <tr>
+        <td><button type="button" value="4" onclick="duLieu(this.value)">4</button></td>
+        <td><button type="button" value="5" onclick="duLieu(this.value)">5</button></td>
+        <td><button type="button" value="6" onclick="duLieu(this.value)">6</button></td>
+        <td><button type="button" value="-" onclick="duLieu(this.value)">-</button></td>
+    </tr>
+    <tr>
+        <td><button type="button" value="7" onclick="duLieu(this.value)">7</button></td>
+        <td><button type="button" value="8" onclick="duLieu(this.value)">8</button></td>
+        <td><button type="button" value="9" onclick="duLieu(this.value)">9</button></td>
+        <td><button type="button" value="*" onclick="duLieu(this.value)">*</button></td>
+    </tr>
+    <tr>
+        <td><button type="button" value="AC" onclick="xoa()">AC</button></td>
+        <td><button type="button" value="0" onclick="duLieu(this.value)">0</button></td>
+        <td><button name="result" value="=" onclick="ketqua()">=</button></td>
+        <td><button type="button" value="/" onclick="duLieu(this.value)">/</button></td>
+    </tr>
+</table>
+</div>
+</body>
+<script src="Maytinhnangcao.js"></script>
+</html>
